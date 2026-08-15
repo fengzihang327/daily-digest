@@ -4,5 +4,6 @@ __pycache__/
 .env
 node_modules/
 frontend/dist/
-frontend/public/data/   # 构建时由 scripts/sync-data.mjs 从仓库 data/ 生成
+# 构建产物, 由 scripts/sync-data.mjs 从仓库 data/ 自动生成
+frontend/public/data/
 .DS_Store
