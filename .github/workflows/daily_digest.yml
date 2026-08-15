@@ -1,0 +1,88 @@
+# 每日精读推报 · 定时数据流水线
+#
+# 1) 每天 01:47 UTC (= 北京时间 09:47) 自动运行: 抓 RSS → DeepSeek 两阶段提炼 → 生成 JSON
+# 2) 将 data/ 下的归档与索引自动 commit 推送回仓库
+# 3) 推送会触发 Vercel / Netlify / Cloudflare Pages 的 Git 集成自动重新构建部署前端
+#
+# 注意:
+# - Secrets(机密)在仓库 Settings → Secrets and variables → Actions 中配置:
+#   DEEPSEEK_API_KEY(必填), TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID, RESEND_*
+# - Variables(可调参数)同样在那里以 Repository variables 配置:
+#   DEEPSEEK_FAST_MODEL / DEEPSEEK_DEEP_MODEL / MIN_SCORE / MAX_ARTICLES /
+#   MAX_DEEP_ARTICLES / DIGEST_TZ(不配则用默认值)
+# - 支持 GitHub Actions 页面手动触发(workflow_dispatch), 可指定日期补跑
+
+name: Daily Digest Pipeline
+
+on:
+  schedule:
+    - cron: "47 1 * * *"          # 每天 09:47 北京时间
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "指定日期补跑 (YYYY-MM-DD, 留空 = 今天)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write                 # 允许把生成的 JSON 提交回仓库
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run digest pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL }}
+          DEEPSEEK_FAST_MODEL: ${{ vars.DEEPSEEK_FAST_MODEL }}
+          DEEPSEEK_DEEP_MODEL: ${{ vars.DEEPSEEK_DEEP_MODEL }}
+          DEEPSEEK_TEMPERATURE: ${{ vars.DEEPSEEK_TEMPERATURE }}
+          MIN_SCORE: ${{ vars.MIN_SCORE }}
+          MAX_ARTICLES: ${{ vars.MAX_ARTICLES }}
+          MAX_DEEP_ARTICLES: ${{ vars.MAX_DEEP_ARTICLES }}
+          DIGEST_TZ: ${{ vars.DIGEST_TZ }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          RESEND_TO: ${{ secrets.RESEND_TO }}
+        run: |
+          DATE_ARGS=""
+          if [ -n "${{ inputs.date }}" ]; then
+            DATE_ARGS="--date ${{ inputs.date }}"
+          fi
+          python pipeline/fetch_and_summarize.py $DATE_ARGS
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "::notice::数据无变化, 跳过提交"
+          else
+            git commit -m "chore(data): daily digest $(date -u +%Y-%m-%d) [skip ci]"
+            git push
+            echo "::notice::数据已提交并推送, 前端将自动重新部署"
+          fi

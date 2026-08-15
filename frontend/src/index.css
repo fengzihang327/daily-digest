@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* 暗色模式使用 class 策略(而非媒体查询), 由 ThemeToggle 切换 .dark */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "PingFang SC",
+    "Noto Sans SC", "Microsoft YaHei", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,6 @@
+# 每日精读推报 · 数据管线依赖 (Python 3.10+)
+feedparser>=6.0.11        # RSS/Atom 解析
+trafilatura>=1.8.0        # 正文提取(质量优先)
+beautifulsoup4>=4.12.3    # 正文提取回退方案
+openai>=1.40.0            # DeepSeek API (OpenAI 兼容格式, base_url 指向 api.deepseek.com)
+requests>=2.31.0          # HTTP 请求

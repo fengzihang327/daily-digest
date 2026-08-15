@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+node_modules/
+frontend/dist/
+frontend/public/data/   # 构建时由 scripts/sync-data.mjs 从仓库 data/ 生成
+.DS_Store

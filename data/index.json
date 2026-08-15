@@ -1,0 +1,33 @@
+{
+  "latest": {
+    "date": "2026-08-14",
+    "updated_at": "2026-08-14T22:56:34+08:00",
+    "item_count": 15,
+    "top": [
+      {
+        "id": "2026-08-14-001",
+        "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+        "category": "其他",
+        "importance_score": 0,
+        "url": "https://e360.yale.edu/digest/australia-home-batteries"
+      },
+      {
+        "id": "2026-08-14-002",
+        "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+        "category": "其他",
+        "importance_score": 0,
+        "url": "https://hashagent.pages.dev/"
+      },
+      {
+        "id": "2026-08-14-003",
+        "title": "Show HN: We Implemented the IPv8 Internet-Draft in Linux, Libc, and BGP",
+        "category": "其他",
+        "importance_score": 0,
+        "url": "https://goonhost.rocks/blog/implementing-ipv8-internet-draft"
+      }
+    ]
+  },
+  "days": [
+    "2026-08-14"
+  ]
+}
