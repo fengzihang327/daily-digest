@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-08-22",
-    "updated_at": "2026-08-22T10:42:12+08:00",
+    "date": "2026-08-23",
+    "updated_at": "2026-08-23T10:50:54+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-08-22-001",
-        "title": "史上最大宇宙2D地图发布：5.6万亿像素揭示暗能量线索",
-        "category": "科学探索",
-        "importance_score": 9.2,
-        "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/"
+        "id": "2026-08-23-001",
+        "title": "美加贸易谈判破裂，加拿大对等报复关税",
+        "category": "全球宏观经济",
+        "importance_score": 8.5,
+        "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo"
       },
       {
-        "id": "2026-08-22-002",
-        "title": "Moderna个性化mRNA疫苗三期临床成功，黑色素瘤复发风险显著降低",
-        "category": "AI前沿",
-        "importance_score": 9.2,
-        "url": "https://www.nature.com/articles/d41586-026-02612-3"
-      },
-      {
-        "id": "2026-08-22-003",
-        "title": "花5欧元接管英军基地电话网络：一个DNS漏洞的意外发现",
+        "id": "2026-08-23-002",
+        "title": "Rust Glancer：内存占用仅为 rust-analyzer 1% 的 LSP 新方案",
         "category": "硬核科技",
         "importance_score": 8.5,
-        "url": "https://lina.sh/blog/hijacking-e164-arpa"
+        "url": "https://rust-glancer.github.io/blog/hello-world/"
+      },
+      {
+        "id": "2026-08-23-003",
+        "title": "中国强制特斯拉召回近300万辆车，加装警示标签并升级软件",
+        "category": "硬核科技",
+        "importance_score": 8.5,
+        "url": "https://arstechnica.com/cars/2026/08/chinese-regulators-tell-tesla-to-fix-nearly-3-million-cars/"
       }
     ]
   },
   "days": [
+    "2026-08-23",
     "2026-08-22",
     "2026-08-21",
     "2026-08-20",
