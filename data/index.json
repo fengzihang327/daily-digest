@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-08-24",
-    "updated_at": "2026-08-24T10:51:33+08:00",
+    "date": "2026-08-25",
+    "updated_at": "2026-08-25T10:45:44+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-08-24-001",
-        "title": "伊朗黑客首次瘫痪英国电厂四天",
-        "category": "硬核科技",
-        "importance_score": 8.5,
-        "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/"
+        "id": "2026-08-25-001",
+        "title": "全球海洋温度创纪录，厄尔尼诺叠加气候变暖",
+        "category": "科学探索",
+        "importance_score": 8.7,
+        "url": "https://www.bbc.com/news/articles/c62m4gpnp78o"
       },
       {
-        "id": "2026-08-24-002",
-        "title": "DeepSeek多模态模型上线，Agent迎来视觉能力",
+        "id": "2026-08-25-002",
+        "title": "恶意LLM可通过推理引擎漏洞控制宿主机",
         "category": "AI前沿",
         "importance_score": 8.5,
-        "url": "https://www.ifanr.com/1676067?utm_source=rss&utm_medium=rss&utm_campaign="
+        "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
       },
       {
-        "id": "2026-08-24-003",
-        "title": "斯洛伐克交通摄像头发现俄制后门",
+        "id": "2026-08-25-003",
+        "title": "NVIDIA将CUDA扩展至RISC-V，门槛高企",
         "category": "硬核科技",
         "importance_score": 8.5,
-        "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/"
+        "url": "https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc"
       }
     ]
   },
   "days": [
+    "2026-08-25",
     "2026-08-24",
     "2026-08-23",
     "2026-08-22",
