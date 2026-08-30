@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-08-29",
-    "updated_at": "2026-08-29T16:19:41+08:00",
+    "date": "2026-08-30",
+    "updated_at": "2026-08-30T15:27:56+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-08-29-001",
+        "id": "2026-08-30-001",
         "title": "xAI被诉用儿童性虐待素材训练Grok模型",
         "category": "AI前沿",
         "importance_score": 9.2,
         "url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/"
       },
       {
-        "id": "2026-08-29-002",
-        "title": "Moderna癌症疫苗三期临床成功，个性化治疗提速在即",
-        "category": "科学探索",
-        "importance_score": 9.2,
-        "url": "https://www.nature.com/articles/d41586-026-02680-5"
-      },
-      {
-        "id": "2026-08-29-003",
-        "title": "英伟达拟130亿美元收购Hugging Face，深化AI生态布局",
+        "id": "2026-08-30-002",
+        "title": "腾讯开源Hy4预览版：770B参数与递归自改进",
         "category": "AI前沿",
         "importance_score": 9.0,
-        "url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/"
+        "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
+      },
+      {
+        "id": "2026-08-30-003",
+        "title": "DHS借海关法条秘密调取记者与组织数据",
+        "category": "前沿思考",
+        "importance_score": 8.8,
+        "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits"
       }
     ]
   },
   "days": [
+    "2026-08-30",
     "2026-08-29",
     "2026-08-28",
     "2026-08-27",
