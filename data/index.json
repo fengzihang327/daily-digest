@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-09-01",
-    "updated_at": "2026-09-01T14:47:39+08:00",
+    "date": "2026-09-02",
+    "updated_at": "2026-09-02T14:27:29+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-09-01-001",
-        "title": "NASA罗曼望远镜升空，开启暗能量探索新纪元",
-        "category": "科学探索",
+        "id": "2026-09-02-001",
+        "title": "FBI调查1.53亿驾照泄露，源头指向身份验证公司",
+        "category": "硬核科技",
         "importance_score": 9.2,
-        "url": "https://www.nature.com/articles/d41586-026-02727-7"
+        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
       },
       {
-        "id": "2026-09-01-002",
-        "title": "拖延研究经典论文被指数据造假：效应量异常与重复观测成铁证",
-        "category": "科学探索",
+        "id": "2026-09-02-002",
+        "title": "Claude Fable 5.1与Mythos 5.1发布：性能跃升与安全分级",
+        "category": "AI前沿",
         "importance_score": 9.2,
-        "url": "https://datacolada.org/138"
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
       },
       {
-        "id": "2026-09-01-003",
-        "title": "NASA新旗舰望远镜将开启宇宙全景观测",
-        "category": "科学探索",
-        "importance_score": 8.5,
-        "url": "https://arstechnica.com/space/2026/08/nasas-next-great-observatory-begins-mission-to-widen-our-view-of-the-universe/"
+        "id": "2026-09-02-003",
+        "title": "FTC指控亚马逊操纵广告拍卖非法获利200亿美元",
+        "category": "商业财经",
+        "importance_score": 9.0,
+        "url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
       }
     ]
   },
   "days": [
+    "2026-09-02",
     "2026-09-01",
     "2026-08-31",
     "2026-08-30",
