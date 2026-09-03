@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-09-02",
-    "updated_at": "2026-09-02T14:27:29+08:00",
+    "date": "2026-09-03",
+    "updated_at": "2026-09-03T14:31:27+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-09-02-001",
-        "title": "FBI调查1.53亿驾照泄露，源头指向身份验证公司",
-        "category": "硬核科技",
-        "importance_score": 9.2,
-        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
-      },
-      {
-        "id": "2026-09-02-002",
-        "title": "Claude Fable 5.1与Mythos 5.1发布：性能跃升与安全分级",
+        "id": "2026-09-03-001",
+        "title": "OpenAI Astra架构不透明引发安全担忧",
         "category": "AI前沿",
-        "importance_score": 9.2,
-        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        "importance_score": 9.0,
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety"
       },
       {
-        "id": "2026-09-02-003",
-        "title": "FTC指控亚马逊操纵广告拍卖非法获利200亿美元",
-        "category": "商业财经",
+        "id": "2026-09-03-002",
+        "title": "司美格鲁肽晚年干预延缓雌鼠衰老并延寿",
+        "category": "科学探索",
         "importance_score": 9.0,
-        "url": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/"
+        "url": "https://www.nature.com/articles/s41586-026-10940-7"
+      },
+      {
+        "id": "2026-09-03-003",
+        "title": "租车数小时后驾照即被挂售，153万份证件泄露",
+        "category": "前沿思考",
+        "importance_score": 8.5,
+        "url": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/"
       }
     ]
   },
   "days": [
+    "2026-09-03",
     "2026-09-02",
     "2026-09-01",
     "2026-08-31",
