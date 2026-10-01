@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T15:49:27+08:00",
+  "meta": {
+    "scanned": 112,
+    "selected": 0,
+    "offline": false,
+    "source_counts": {
+      "Hacker News": 20,
+      "Ars Technica": 20,
+      "The Verge": 10,
+      "MIT Tech Review": 9,
+      "Nature": 15,
+      "OpenAI Blog": 7,
+      "Google AI Blog": 1,
+      "少数派": 10,
+      "爱范儿": 20
+    }
+  },
+  "items": []
+}
