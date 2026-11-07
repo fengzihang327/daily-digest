@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-11-06",
-    "updated_at": "2026-11-06T16:31:56+08:00",
+    "date": "2026-11-07",
+    "updated_at": "2026-11-07T15:51:29+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-11-06-001",
-        "title": "氢衍生物为中国碳中和降本10.7万亿美元",
+        "id": "2026-11-07-001",
+        "title": "一次注射改写基因：CRISPR碱基编辑降脂三年不衰",
         "category": "科学探索",
-        "importance_score": 8.8,
-        "url": "https://www.nature.com/articles/s41586-026-11351-4"
+        "importance_score": 9.2,
+        "url": "https://www.nature.com/articles/s41586-026-11233-9"
       },
       {
-        "id": "2026-11-06-002",
-        "title": "智能手表无需袖带校准即可筛查高血压",
-        "category": "AI前沿",
-        "importance_score": 8.7,
-        "url": "https://www.nature.com/articles/s41586-026-11336-3"
+        "id": "2026-11-07-002",
+        "title": "Firecracker微虚拟机逃逸：从客户机到宿主机root",
+        "category": "硬核科技",
+        "importance_score": 9.0,
+        "url": "https://pwn.ai/blog/firecracker-escape"
       },
       {
-        "id": "2026-11-06-003",
-        "title": "Meta深伪诈骗广告年入160亿美元内幕",
+        "id": "2026-11-07-003",
+        "title": "Chainalysis 遭AI辅助攻击，全部客户凭证泄露",
         "category": "AI前沿",
         "importance_score": 8.5,
-        "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+        "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
       }
     ]
   },
   "days": [
+    "2026-11-07",
     "2026-11-06",
     "2026-11-05",
     "2026-11-04",
