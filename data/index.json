@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-11-10",
-    "updated_at": "2026-11-10T16:51:26+08:00",
+    "date": "2026-11-11",
+    "updated_at": "2026-11-11T16:25:14+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-11-10-001",
-        "title": "Claude新模型自主完成费马大定理形式化",
+        "id": "2026-11-11-001",
+        "title": "Grok Build 分享链接可被枚举，泄露大量机密数据",
         "category": "AI前沿",
-        "importance_score": 9.2,
-        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        "importance_score": 8.2,
+        "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
       },
       {
-        "id": "2026-11-10-002",
-        "title": "CoreWeave债券收益率破16%，AI债务压力显现",
-        "category": "全球宏观经济",
-        "importance_score": 8.5,
-        "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
-      },
-      {
-        "id": "2026-11-10-003",
-        "title": "OpenSSH与musl交互漏洞遭实战利用",
+        "id": "2026-11-11-002",
+        "title": "AMD Zen 6架构拆解：经典核与密集核首次分道",
         "category": "硬核科技",
-        "importance_score": 8.5,
-        "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"
+        "importance_score": 8.0,
+        "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
+      },
+      {
+        "id": "2026-11-11-003",
+        "title": "Anthropic漏洞项目七个月:发现远超修复",
+        "category": "AI前沿",
+        "importance_score": 7.8,
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
       }
     ]
   },
   "days": [
+    "2026-11-11",
     "2026-11-10",
     "2026-11-09",
     "2026-11-08",
