@@ -1,33 +1,34 @@
 {
   "latest": {
-    "date": "2026-11-26",
-    "updated_at": "2026-11-26T18:04:17+08:00",
+    "date": "2026-11-27",
+    "updated_at": "2026-11-27T18:09:45+08:00",
     "item_count": 8,
     "top": [
       {
-        "id": "2026-11-26-001",
-        "title": "AI连破数学难题，P≠NP或已不远",
-        "category": "AI前沿",
-        "importance_score": 9.5,
-        "url": "https://scottaaronson.blog/?p=10379"
-      },
-      {
-        "id": "2026-11-26-002",
+        "id": "2026-11-27-001",
         "title": "黎曼猜想惊现双重证明：AI与人类同时攻克",
         "category": "科学探索",
         "importance_score": 9.5,
         "url": "https://www.nature.com/articles/d41586-026-03853-y"
       },
       {
-        "id": "2026-11-26-003",
-        "title": "Anthropic用Lean4形式化证明黎曼猜想",
+        "id": "2026-11-27-002",
+        "title": "FCC批准SpaceX部署百万颗轨道数据中心卫星",
+        "category": "硬核科技",
+        "importance_score": 8.5,
+        "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+      },
+      {
+        "id": "2026-11-27-003",
+        "title": "AI 攻克黎曼猜想？数学界喜忧参半",
         "category": "AI前沿",
-        "importance_score": 9.2,
-        "url": "https://github.com/lsernau/grh-lean"
+        "importance_score": 8.5,
+        "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
       }
     ]
   },
   "days": [
+    "2026-11-27",
     "2026-11-26",
     "2026-11-25",
     "2026-11-24",
